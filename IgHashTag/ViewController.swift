@@ -9,14 +9,14 @@
 import UIKit
 
 
-struct IgPost: Decodable {
+struct IgPost_: Decodable {
     let content: String
     let imgUrl: String
 }
 
 class ViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate {
     
-    var igPosts = [IgPost]()
+    var igPosts = [IgPost_]()
     var scrollingTimer = Timer()
     
     @IBOutlet weak var collectionView: UICollectionView!
@@ -46,7 +46,7 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
                 let decoder = JSONDecoder()
                 decoder.keyDecodingStrategy = .convertFromSnakeCase
 
-                self.igPosts = try decoder.decode([IgPost].self, from: data)
+                self.igPosts = try decoder.decode([IgPost_].self, from: data)
 //                print(self.igPosts)
 
             } catch let jsonErr {
