@@ -1,0 +1,36 @@
+PODS:
+  - Alamofire (4.7.2)
+  - FSPagerView (0.7.1)
+  - Realm (3.5.0):
+    - Realm/Headers (= 3.5.0)
+  - Realm/Headers (3.5.0)
+  - RealmSwift (3.5.0):
+    - Realm (= 3.5.0)
+  - SDWebImage (4.3.3):
+    - SDWebImage/Core (= 4.3.3)
+  - SDWebImage/Core (4.3.3)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.7)
+  - FSPagerView
+  - RealmSwift
+  - SDWebImage (~> 4.0)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Alamofire
+    - FSPagerView
+    - Realm
+    - RealmSwift
+    - SDWebImage
+
+SPEC CHECKSUMS:
+  Alamofire: e4fa87002c137ba2d8d634d2c51fabcda0d5c223
+  FSPagerView: 958aba39684e1573755ddcfcc29f7eebb8413cee
+  Realm: 0378021c424e4e2bd6a0e63b27881e929d9b9ad1
+  RealmSwift: 3322562622fda2ad596985ead4d8d8be30cf838c
+  SDWebImage: de4d90b5bff3571eae7bd16202b1f43135409fa5
+
+PODFILE CHECKSUM: 9a41d571aa7292aa23fd35b0faf9498848d71faf
+
+COCOAPODS: 1.5.0

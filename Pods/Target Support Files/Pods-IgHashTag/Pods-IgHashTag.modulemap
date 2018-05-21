@@ -1,0 +1,6 @@
+framework module Pods_IgHashTag {
+  umbrella header "Pods-IgHashTag-umbrella.h"
+
+  export *
+  module * { export * }
+}
