@@ -19,7 +19,7 @@ class IHTImageSlideViewController: UIViewController {
     var igPosts = [IgPost]()
     var realm: Realm!
     var realmNotificationToken: NotificationToken?
-    var needToReloadData = false
+//    var needToReloadData = false
     @IBOutlet weak var contentLabel: UILabel!
     @IBOutlet weak var imagePagerView: FSPagerView!{
         didSet {
@@ -46,6 +46,7 @@ class IHTImageSlideViewController: UIViewController {
     private func setUpPagerView() {
         imagePagerView.transformer = FSPagerViewTransformer(type: .crossFading)
         imagePagerView.automaticSlidingInterval = automaticSlidingIntervalSec
+        imagePagerView.isInfinite = true
     }
     
     private func loadDataFormDb() {
@@ -79,14 +80,16 @@ extension IHTImageSlideViewController: FSPagerViewDataSource {
 
 
 extension IHTImageSlideViewController: FSPagerViewDelegate {
-    func pagerView(_ pagerView: FSPagerView, didEndDisplaying cell: FSPagerViewCell, forItemAt index: Int) {
-        needToReloadData = index == igPosts.count - 1
+//    func pagerView(_ pagerView: FSPagerView, didEndDisplaying cell: FSPagerViewCell, forItemAt index: Int) {
+//        needToReloadData = index == igPosts.count - 1
+//    }
+
+    func pagerViewDidScroll(_ pagerView: FSPagerView) {
+        contentLabel.text = igPosts[pagerView.currentIndex].content
     }
     
     func pagerViewDidEndScrollAnimation(_ pagerView: FSPagerView) {
-        contentLabel.text = igPosts[pagerView.currentIndex].content
-        if needToReloadData {
-            needToReloadData = false
+        if pagerView.currentIndex == 0 {
             print("展示完了一輪 重新從資料庫抓資料")
             loadDataFormDb()
             imagePagerView.reloadData()

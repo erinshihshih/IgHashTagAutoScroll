@@ -12,8 +12,8 @@ import Alamofire
 
 class IHTDataManager {
     //Server 網址 (不用加後面參數哦～)
-    let endPoint = "http://127.0.0.1:5000/"
-    var hashTag = "台北美景"
+    let endPoint = "https://97a3f9db.ngrok.io"
+    var hashTag = "erinelvis"
     //幾秒鐘抓一次新資料
     var updateInterval = 30
     
@@ -22,8 +22,16 @@ class IHTDataManager {
     var fetching = false
     var nextFetchTime: Double = 0.0
     static let sharedInstance = IHTDataManager()
+//    private init() {
+//        realm = try! Realm()
+//        timer = Timer.scheduledTimer(timeInterval: 1, target: self,   selector: (#selector(self.fetchPosts)), userInfo: nil, repeats: true)
+//    }
+    
     private init() {
         realm = try! Realm()
+        try! realm.write {
+            realm.deleteAll()
+        }
         timer = Timer.scheduledTimer(timeInterval: 1, target: self,   selector: (#selector(self.fetchPosts)), userInfo: nil, repeats: true)
     }
     

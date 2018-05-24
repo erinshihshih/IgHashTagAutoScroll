@@ -16,14 +16,6 @@ DEPENDENCIES:
   - RealmSwift
   - SDWebImage (~> 4.0)
 
-SPEC REPOS:
-  https://github.com/CocoaPods/Specs.git:
-    - Alamofire
-    - FSPagerView
-    - Realm
-    - RealmSwift
-    - SDWebImage
-
 SPEC CHECKSUMS:
   Alamofire: e4fa87002c137ba2d8d634d2c51fabcda0d5c223
   FSPagerView: 958aba39684e1573755ddcfcc29f7eebb8413cee
@@ -33,4 +25,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: 9a41d571aa7292aa23fd35b0faf9498848d71faf
 
-COCOAPODS: 1.5.0
+COCOAPODS: 1.4.0
