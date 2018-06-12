@@ -14,13 +14,14 @@
 		859B1411A2A09CB76D98C5FA /* Pods_IgHashTagUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2362C7BC850E892E8D838F6 /* Pods_IgHashTagUITests.framework */; };
 		9502714C20AEC177005CFB36 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9502714B20AEC177005CFB36 /* ViewController.swift */; };
 		9502714E20AEC1A7005CFB36 /* CustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9502714D20AEC1A7005CFB36 /* CustomCollectionViewCell.swift */; };
+		953CDDB320BC2A8100F5F95B /* instagram.png in Resources */ = {isa = PBXBuildFile; fileRef = 953CDDB220BC2A8100F5F95B /* instagram.png */; };
 		959233E220AD72840082A3E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959233E120AD72840082A3E6 /* AppDelegate.swift */; };
 		959233E720AD72840082A3E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 959233E520AD72840082A3E6 /* Main.storyboard */; };
 		959233E920AD72870082A3E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 959233E820AD72870082A3E6 /* Assets.xcassets */; };
 		959233EC20AD72870082A3E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 959233EA20AD72870082A3E6 /* LaunchScreen.storyboard */; };
 		959233F720AD72870082A3E6 /* IgHashTagTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959233F620AD72870082A3E6 /* IgHashTagTests.swift */; };
 		9592340220AD72870082A3E6 /* IgHashTagUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9592340120AD72870082A3E6 /* IgHashTagUITests.swift */; };
-		95E5A49620B5B7420036E7CB /* instagram.png in Resources */ = {isa = PBXBuildFile; fileRef = 95E5A49520B5B7420036E7CB /* instagram.png */; };
+		95BC974620B676E80001A8CD /* tag.png in Resources */ = {isa = PBXBuildFile; fileRef = 95BC974520B676E70001A8CD /* tag.png */; };
 		C4832CCC3AF85DD6B089F2E0 /* Pods_IgHashTagTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A06A48B91D7C724C296EE93 /* Pods_IgHashTagTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -51,6 +52,7 @@
 		599B010591CD5698D73C555E /* Pods_IgHashTag.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IgHashTag.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9502714B20AEC177005CFB36 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9502714D20AEC1A7005CFB36 /* CustomCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewCell.swift; sourceTree = "<group>"; };
+		953CDDB220BC2A8100F5F95B /* instagram.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = instagram.png; path = "../../20181215 網站資料/icon/instagram.png"; sourceTree = "<group>"; };
 		959233DE20AD72840082A3E6 /* IgHashTag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IgHashTag.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		959233E120AD72840082A3E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		959233E620AD72840082A3E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -63,7 +65,7 @@
 		959233FD20AD72870082A3E6 /* IgHashTagUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IgHashTagUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9592340120AD72870082A3E6 /* IgHashTagUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IgHashTagUITests.swift; sourceTree = "<group>"; };
 		9592340320AD72870082A3E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		95E5A49520B5B7420036E7CB /* instagram.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = instagram.png; path = ../../../Downloads/instagram.png; sourceTree = "<group>"; };
+		95BC974520B676E70001A8CD /* tag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tag.png; sourceTree = "<group>"; };
 		AD9881A0A8A2EFE1C4803AA6 /* Pods-IgHashTagUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IgHashTagUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-IgHashTagUITests/Pods-IgHashTagUITests.release.xcconfig"; sourceTree = "<group>"; };
 		BFD94A2AEE0AB09ACC78BE78 /* Pods-IgHashTag.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IgHashTag.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IgHashTag/Pods-IgHashTag.debug.xcconfig"; sourceTree = "<group>"; };
 		C9FDEED183C399FFA11C00DF /* Pods-IgHashTagUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IgHashTagUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IgHashTagUITests/Pods-IgHashTagUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -144,7 +146,8 @@
 		959233E020AD72840082A3E6 /* IgHashTag */ = {
 			isa = PBXGroup;
 			children = (
-				95E5A49520B5B7420036E7CB /* instagram.png */,
+				95BC974520B676E70001A8CD /* tag.png */,
+				953CDDB220BC2A8100F5F95B /* instagram.png */,
 				959233E120AD72840082A3E6 /* AppDelegate.swift */,
 				9502714B20AEC177005CFB36 /* ViewController.swift */,
 				9502714D20AEC1A7005CFB36 /* CustomCollectionViewCell.swift */,
@@ -301,9 +304,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				953CDDB320BC2A8100F5F95B /* instagram.png in Resources */,
+				95BC974620B676E80001A8CD /* tag.png in Resources */,
 				959233EC20AD72870082A3E6 /* LaunchScreen.storyboard in Resources */,
 				959233E920AD72870082A3E6 /* Assets.xcassets in Resources */,
-				95E5A49620B5B7420036E7CB /* instagram.png in Resources */,
 				959233E720AD72840082A3E6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -676,7 +680,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = erinshih.igHashTag;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = 2;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -695,7 +699,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = erinshih.igHashTag;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = 2;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};

@@ -12,8 +12,8 @@ import Alamofire
 
 class IHTDataManager {
     //Server 網址 (不用加後面參數哦～)
-    let endPoint = "https://97a3f9db.ngrok.io"
-    var hashTag = "erinelvis"
+    let endPoint = "http://127.0.0.1:5000/"
+    var hashTag = "台北美景"
     //幾秒鐘抓一次新資料
     var updateInterval = 30
     

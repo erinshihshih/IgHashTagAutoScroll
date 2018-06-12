@@ -99,60 +99,43 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="470-c8-wRV" customClass="FSPagerView" customModule="FSPagerView">
-                                <rect key="frame" x="0.0" y="20" width="834" height="740"/>
-                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <rect key="frame" x="0.0" y="20" width="834" height="742"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <connections>
                                     <outlet property="dataSource" destination="auW-jo-JKM" id="fOf-h5-Iqv"/>
                                     <outlet property="delegate" destination="auW-jo-JKM" id="rBR-sO-rfJ"/>
                                 </connections>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Loading..." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ofc-ju-LqM">
-                                <rect key="frame" x="15" y="780" width="804" height="275"/>
-                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <rect key="frame" x="20" y="782" width="794" height="275"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="275" id="Vta-3K-IX3"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="#E家人20181215" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ziQ-dG-UfK">
-                                <rect key="frame" x="301.5" y="1063" width="231" height="34"/>
-                                <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="30"/>
-                                <color key="textColor" red="0.46202266219999999" green="0.83828371759999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="instagram.png" translatesAutoresizingMaskIntoConstraints="NO" id="cKU-gU-xeS">
-                                <rect key="frame" x="221.5" y="1065" width="30" height="30"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tag.png" translatesAutoresizingMaskIntoConstraints="NO" id="MFt-R4-j3q">
+                                <rect key="frame" x="200" y="1062" width="435" height="50"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="30" id="Rb5-xq-g9g"/>
-                                    <constraint firstAttribute="height" constant="30" id="oyV-KY-XrU"/>
-                                </constraints>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="instagram.png" translatesAutoresizingMaskIntoConstraints="NO" id="EK1-ew-aKR">
-                                <rect key="frame" x="582.5" y="1065" width="30" height="30"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="30" id="jAF-Q8-8yp"/>
-                                    <constraint firstAttribute="height" constant="30" id="o7h-d0-ubX"/>
+                                    <constraint firstAttribute="width" constant="435" id="55t-bC-Fbg"/>
+                                    <constraint firstAttribute="height" constant="50" id="Iuu-vu-lei"/>
                                 </constraints>
                             </imageView>
                         </subviews>
-                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="ziQ-dG-UfK" firstAttribute="centerY" secondItem="cKU-gU-xeS" secondAttribute="centerY" id="D4U-bs-cZp"/>
-                            <constraint firstItem="ziQ-dG-UfK" firstAttribute="centerY" secondItem="EK1-ew-aKR" secondAttribute="centerY" id="Liz-KY-kQ8"/>
+                            <constraint firstItem="MFt-R4-j3q" firstAttribute="centerX" secondItem="S5e-V1-Xi2" secondAttribute="centerX" id="4zH-IG-tTm"/>
+                            <constraint firstItem="MFt-R4-j3q" firstAttribute="bottom" secondItem="S5e-V1-Xi2" secondAttribute="bottom" id="9ob-Ka-nzn"/>
                             <constraint firstItem="470-c8-wRV" firstAttribute="trailing" secondItem="S5e-V1-Xi2" secondAttribute="trailing" id="MwA-7R-EWI"/>
-                            <constraint firstItem="ziQ-dG-UfK" firstAttribute="centerX" secondItem="S5e-V1-Xi2" secondAttribute="centerX" id="NMo-fP-Bxd"/>
-                            <constraint firstItem="S5e-V1-Xi2" firstAttribute="trailing" secondItem="Ofc-ju-LqM" secondAttribute="trailing" constant="15" id="TYJ-CY-ZCp"/>
-                            <constraint firstItem="ziQ-dG-UfK" firstAttribute="top" secondItem="Ofc-ju-LqM" secondAttribute="bottom" constant="8" id="YTM-7C-auo"/>
+                            <constraint firstItem="S5e-V1-Xi2" firstAttribute="trailing" secondItem="Ofc-ju-LqM" secondAttribute="trailing" constant="20" id="TYJ-CY-ZCp"/>
+                            <constraint firstItem="MFt-R4-j3q" firstAttribute="top" secondItem="Ofc-ju-LqM" secondAttribute="bottom" constant="5" id="Vy9-S5-CdK"/>
                             <constraint firstItem="470-c8-wRV" firstAttribute="top" secondItem="2Kq-Ei-dyb" secondAttribute="top" constant="20" id="c7w-kI-dEI"/>
                             <constraint firstItem="470-c8-wRV" firstAttribute="leading" secondItem="S5e-V1-Xi2" secondAttribute="leading" id="cSi-fd-GZV"/>
-                            <constraint firstItem="S5e-V1-Xi2" firstAttribute="bottom" secondItem="ziQ-dG-UfK" secondAttribute="bottom" constant="15" id="cf6-tA-E2I"/>
-                            <constraint firstItem="EK1-ew-aKR" firstAttribute="leading" secondItem="ziQ-dG-UfK" secondAttribute="trailing" constant="50" id="eRg-sf-0rm"/>
                             <constraint firstItem="Ofc-ju-LqM" firstAttribute="top" secondItem="470-c8-wRV" secondAttribute="bottom" constant="20" id="gcd-Mr-4wL"/>
                             <constraint firstItem="Ofc-ju-LqM" firstAttribute="centerX" secondItem="S5e-V1-Xi2" secondAttribute="centerX" id="h31-oE-dsz"/>
-                            <constraint firstItem="ziQ-dG-UfK" firstAttribute="leading" secondItem="cKU-gU-xeS" secondAttribute="trailing" constant="50" id="qgD-N5-GlH"/>
-                            <constraint firstItem="Ofc-ju-LqM" firstAttribute="leading" secondItem="S5e-V1-Xi2" secondAttribute="leading" constant="15" id="zen-hd-Dtc"/>
+                            <constraint firstItem="Ofc-ju-LqM" firstAttribute="leading" secondItem="S5e-V1-Xi2" secondAttribute="leading" constant="20" id="zen-hd-Dtc"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="S5e-V1-Xi2"/>
                     </view>
@@ -167,6 +150,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="instagram.png" width="512" height="512"/>
+        <image name="tag.png" width="1740" height="200"/>
     </resources>
 </document>
